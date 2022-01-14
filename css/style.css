@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+}
+header h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+main {
+  margin-top: 50px;
+}
+main h4 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+main .card_list {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: space-around;
+  margin: 50px;
+}
+main .card_list .condition {
+  padding: 20px;
+}
+main .card_list .condition h3 {
+  text-align: center;
+  margin: 20px;
+}
+main .card_list > div > div {
+  position: relative;
+  padding: 10px;
+}
+main .card_list > div > div h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+}
+main .card_list > div > div > h3 {
+  width: 50px;
+  height: 25px;
+  background-color: #5f5f5f;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+main .card_list > div > div > h4 {
+  margin: auto;
+  color: white;
+  font-size: 25px;
+}
+main .card_list > div > div p {
+  color: white;
+  text-align: center;
+}
+main .card_list > div > div .valid {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card_list > div > div .valid h4 {
+  color: white;
+  padding: 5px 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+main .card_list > div > div .valid p {
+  font-size: 25px;
+}
+main .card_list > div > div .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card_list > div > div .footer p {
+  color: white;
+  font-size: 20px;
+}
+main .card_list > div > div .footer h3 {
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+footer {
+  padding: 20px 50px;
+  letter-spacing: 2px;
+  text-align: center;
+}

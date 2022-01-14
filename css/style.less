@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 60px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 35px;
+    }
+}
+
+main { margin-top: 50px;
+    h4 {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .card_list {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        justify-content: space-around;
+        margin: 50px;
+
+        .condition {
+            padding: 20px;
+
+            h3 {
+                text-align: center;
+                margin: 20px;
+            }
+        }
+
+        > div {
+            > div {
+                position: relative;
+                padding: 10px;
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid white;
+                    color: white;
+                }
+
+                > h3 {
+                    width: 50px;
+                    height: 25px;
+                    background-color: rgb(95, 95, 95);
+                    border-radius: 5px;
+                    margin: 15px 0;
+                }
+
+                > h4 {
+                    margin: auto;
+                    color: white;
+                    font-size: 25px;
+                }
+
+                p {
+                    color: white;
+                    text-align: center;
+                }
+
+                .valid {
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h4 {
+                        color: white;
+                        padding: 5px 20px;
+                        font-size: 10px;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        font-size: 25px;
+                    }
+                }
+
+                .footer {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p {
+                        color: white;
+                        font-size: 20px;
+                    }
+
+                    h3 {
+                        background-color: white;
+                        padding: 5px 10px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding: 20px 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
